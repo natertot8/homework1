@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Slider(sender: UISlider) {
-        if Slider.value > 0.5
+        if sender.value > 0.5
     {
         println("OVER NINE THOUSAND!!!")
         }

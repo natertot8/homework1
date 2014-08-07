@@ -41,6 +41,7 @@
                     </view>
                     <connections>
                         <outlet property="Button" destination="Sj2-2a-8gC" id="bM9-Oc-mMY"/>
+                        <outlet property="Slider" destination="JXt-tN-Lce" id="W9H-ZP-Wqr"/>
                         <outlet property="toggleSwitch" destination="XOu-Ee-vEd" id="WPa-kR-1Ys"/>
                     </connections>
                 </viewController>
