@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
                             
+    @IBOutlet weak var Slider: UISlider!
+    
+    @IBOutlet weak var Button: UIButton!
+    
+    @IBOutlet weak var toggleSwitch: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +26,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func Button(sender: UIButton) {
+        println("YO!")
+    }
 
+    @IBAction func toggleSwitch(sender: UISwitch) {
+        
+        
+        if sender.on {println("HUZZAH!")
+    }else
+    {println("WHAT?!?!")}
+    }
+    
+    @IBAction func Slider(sender: UISlider) {
+        if Slider.value > 0.5
+    {
+        println("OVER NINE THOUSAND!!!")
+        }
+    }
 }
 
